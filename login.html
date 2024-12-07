@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+           
+            <div id="branding">
+                <h1><span id="highlight">Edipaul</span>Guest House</h1>
+               
+            </div>
+             <!--Navigation Bar-->
+             <nav>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li class="current"><a href="Login.html">Login</a></li>
+                    <li><a href="Signup.html">Signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <!--footer-->
+   <footer>
+    <p>My GUest House, copy &copy; 2024</p>
+   </footer>
+</body>
+</html>
